@@ -1,0 +1,26 @@
+{
+  "name": "bandwidthchecker",
+  "version": "1.0.0",
+  "description": "A tool for checking your used and remaining bandwith provided by your provider.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depuits/BandwidthChecker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/depuits/BandwidthChecker/issues"
+  },
+  "homepage": "https://github.com/depuits/BandwidthChecker#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config": "^1.28.1",
+    "express": "^4.16.2",
+    "mqtt": "^2.15.0"
+  }
+}
