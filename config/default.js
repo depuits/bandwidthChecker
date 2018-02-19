@@ -1,5 +1,5 @@
 var config = {
-	interval:3600,
+	interval: 60 * 60 * 1000, // minutes * seconds * milliseconds
 	provider: {
 		name: 'scarlet',
 		username: undefined,

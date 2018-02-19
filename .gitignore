@@ -1,6 +1,8 @@
 # Dependency directories
 node_modules/
 
+tmp/
+
 # ignore all config files except the default
 config/
 !config/default.js
