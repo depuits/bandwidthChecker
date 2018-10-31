@@ -1,13 +1,17 @@
 var config = {
 	interval: 60 * 60 * 1000, // minutes * seconds * milliseconds
 	provider: {
-		name: 'scarlet',
+		name: 'scarlet', // adjust to match your provider
 		username: undefined,
 		password: undefined
 	},
+
+	// remove to disable rest api
 	rest: {
-		port:4040
+		port: 4040
 	},
+
+	// remove to disable mqtt interface
 	mqtt: {
 		host: '127.0.0.1', 
 		port: 1883,
